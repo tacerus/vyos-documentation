@@ -297,7 +297,7 @@ more or less similar looking error message:
   (10:13) vyos_bld ece068908a5b:/vyos [current] #
 
 To debug the build process and gain additional information of what could be the
-root cause wou need to `chroot` into the build directry. This is explained in
+root cause we need to `chroot` into the build directry. This is explained in
 the following step by step procedure:
 
 .. code-block:: none
@@ -376,8 +376,8 @@ future kernel releases but as long as we have out-of-tree modules.
 * Intel NIC drivers
 * Inter QAT
 
-Each of those modules holds a dependency on the kernel version and if you are
-lucky enough to receive an ISO build error which sounds like:
+Each of these modules holds a dependency on the kernel version and if you are
+lucky enough, you receive an ISO build error which sounds like:
 
 .. code-block:: none
 
